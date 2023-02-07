@@ -1,0 +1,73 @@
+  PyCSP3 (Python:3.7.9, Path:C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\compiler.py)
+
+  * Generating the file essai_cop_mod2-low-reformulate_celar_150_13_15_5_0.xml completed in     0.29 seconds.
+
+
+  * Solving by Ace in progress ... 
+    with command:  java -jar C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\solvers\abscon\ACE-21-05.jar essai_cop_mod2-low-reformulate_celar_150_13_15_5_0.xml  -v=1 -npc
+  * Log file of the solver: C:\Users\HASEE\Desktop\Projet MRO\données-reformulées-cop\ACE\Low\solver_0xe094673501fa_3492_0.log
+
+ACE (AbsCon Essence) v21.05 
+
+  Instance essai_cop_mod2-low-reformulate_celar_150_13_15_5_0
+
+  Loading variables...
+  Loading constraints...
+
+  Domains
+    nTypes=267  nValues=13809  sizes=[40#24,41#33,42#16,43#24...49#17,50#26,51#26,52#27]
+  Variables
+    count=300  degrees=[3#4,4#38,5#18,6#48...19#2,20#4,28#2,32#2]
+  Constraints
+    count=1151  nSpecific=1151  arities=[1#2,2#1136,14#1,16#1...24#2,26#1,28#2,30#2]
+    distribution=[DistEQ2#150,DistGE2#916,NValuesCstLE#13,SubEQ2#70]
+    wck=4.96  cpu=1.265  mem=11M876
+  Objective
+    way=min  type=ObjVarLE  bounds=14..714
+
+  Building solver... 
+
+  Solver
+    guaranteedGAC=false
+    wck=5.01  cpu=1.296  mem=10M98
+
+  Preprocessing
+    eff=324  nValues=10821  nACremovedValues=2988  inconsistency=false
+    wck=0.0  cpu=1.312  mem=10M279
+
+o 280  5.02
+    run=0  dpt=-1..299  eff=1484  wrg=0  wck=0.02  bnds=14..279
+o 14  5.04
+    run=1  dpt=-1..299  eff=2641  wrg=0  wck=0.03  bnds=14..13
+
+  Global
+    eff=2641
+    Stop=FULL_EXPLORATION  wrong=0  bestBound=14  bestBoundWck=5.038  bestBoundCpu=1.328  foundSolutions=2  firstSolCpu=1.312
+    wck=5.04  cpu=1.328  mem=11M363
+
+
+  Solution 2 in JSON format:
+   {
+    freq_emi: [14, 14, 42, 84, 14, 14, 14, 28, 56, 14, 14, 56, 280, 70, 14, 42, 168, 56, 14, 14, 28, 70, 70, 280, 70, 28, 14, 14, 280, 14, 14, 28, 14, 14, 434, 56, 140, 168, 70, 14, 14, 84, 98, 98, 28, 14, 168, 434, 70, 112, 168, 112, 14, 168, 56, 168, 56, 42, 112, 56, 28, 84, 350, 14, 14, 42, 56, 112, 14, 126, 434, 56, 224, 14, 14, 224, 112, 56, 14, 14, 322, 70, 84, 98, 140, 70, 308, 70, 378, 434, 364, 14, 70, 84, 490, 112, 42, 434, 14, 378, 378, 168, 168, 56, 406, 182, 112, 98, 140, 154, 112, 14, 28, 224, 168, 280, 98, 434, 364, 98, 168, 196, 28, 420, 14, 14, 70, 490, 308, 126, 406, 84, 28, 42, 112, 112, 14, 140, 126, 14, 210, 14, 196, 56, 280, 14, 14, 84, 168, 280],
+    freq_rec: [280, 280, 308, 350, 280, 280, 280, 294, 322, 280, 280, 322, 14, 336, 280, 308, 434, 322, 280, 280, 294, 336, 336, 14, 336, 294, 280, 280, 14, 280, 280, 294, 280, 280, 168, 322, 406, 434, 336, 280, 280, 350, 364, 364, 294, 280, 434, 168, 336, 378, 434, 378, 280, 434, 322, 434, 322, 308, 378, 322, 294, 350, 84, 280, 280, 308, 322, 378, 280, 392, 168, 322, 490, 280, 280, 490, 378, 322, 280, 280, 56, 336, 350, 364, 406, 336, 42, 336, 112, 168, 98, 280, 336, 350, 224, 378, 308, 168, 280, 112, 112, 434, 434, 322, 140, 448, 378, 364, 406, 420, 378, 280, 294, 490, 434, 14, 364, 168, 98, 364, 434, 462, 294, 154, 280, 280, 336, 224, 42, 392, 140, 350, 294, 308, 378, 378, 280, 406, 392, 280, 476, 280, 462, 322, 14, 280, 280, 350, 434, 14]
+   }
+
+s OPTIMUM FOUND
+
+v <instantiation id='sol2' type='solution' cost='14'> <list> freq_emi[] freq_rec[] </list> <values> 14x2 42 84 14x3 28 56 14x2 56 280 70 14 42 168 56 14x2 28 70x2 280 70 28 14x2 280 14x2 28 14x2 434 56 140 168 70 14x2 84 98x2 28 14 168 434 70 112 168 112 14 168 56 168 56 42 112 56 28 84 350 14x2 42 56 112 14 126 434 56 224 14x2 224 112 56 14x2 322 70 84 98 140 70 308 70 378 434 364 14 70 84 490 112 42 434 14 378x2 168x2 56 406 182 112 98 140 154 112 14 28 224 168 280 98 434 364 98 168 196 28 420 14x2 70 490 308 126 406 84 28 42 112x2 14 140 126 14 210 14 196 56 280 14x2 84 168 280x3 308 350 280x3 294 322 280x2 322 14 336 280 308 434 322 280x2 294 336x2 14 336 294 280x2 14 280x2 294 280x2 168 322 406 434 336 280x2 350 364x2 294 280 434 168 336 378 434 378 280 434 322 434 322 308 378 322 294 350 84 280x2 308 322 378 280 392 168 322 490 280x2 490 378 322 280x2 56 336 350 364 406 336 42 336 112 168 98 280 336 350 224 378 308 168 280 112x2 434x2 322 140 448 378 364 406 420 378 280 294 490 434 14 364 168 98 364 434 462 294 154 280x2 336 224 42 392 140 350 294 308 378x2 280 406 392 280 476 280 462 322 14 280x2 350 434 14 </values> </instantiation>
+
+d WRONG DECISIONS 0
+d NUMBER OF SOLUTIONS 2
+d BOUND 14
+d COMPLETE EXPLORATION
+
+c real time : 1.328
+
+  * Solved by Ace in     6.00 seconds
+
+  NB: use the solver option v, as in -solver=[choco,v] or -solver=[ace,v] to see directly the output of the solver.
+
+<instantiation type="solution optimal" cost="14">
+  <list> freq_emi[] freq_rec[] </list>
+  <values> 14x2 42 84 14x3 28 56 14x2 56 280 70 14 42 168 56 14x2 28 70x2 280 70 28 14x2 280 14x2 28 14x2 434 56 140 168 70 14x2 84 98x2 28 14 168 434 70 112 168 112 14 168 56 168 56 42 112 56 28 84 350 14x2 42 56 112 14 126 434 56 224 14x2 224 112 56 14x2 322 70 84 98 140 70 308 70 378 434 364 14 70 84 490 112 42 434 14 378x2 168x2 56 406 182 112 98 140 154 112 14 28 224 168 280 98 434 364 98 168 196 28 420 14x2 70 490 308 126 406 84 28 42 112x2 14 140 126 14 210 14 196 56 280 14x2 84 168 280x3 308 350 280x3 294 322 280x2 322 14 336 280 308 434 322 280x2 294 336x2 14 336 294 280x2 14 280x2 294 280x2 168 322 406 434 336 280x2 350 364x2 294 280 434 168 336 378 434 378 280 434 322 434 322 308 378 322 294 350 84 280x2 308 322 378 280 392 168 322 490 280x2 490 378 322 280x2 56 336 350 364 406 336 42 336 112 168 98 280 336 350 224 378 308 168 280 112x2 434x2 322 140 448 378 364 406 420 378 280 294 490 434 14 364 168 98 364 434 462 294 154 280x2 336 224 42 392 140 350 294 308 378x2 280 406 392 280 476 280 462 322 14 280x2 350 434 14 </values>
+</instantiation>

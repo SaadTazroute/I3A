@@ -1,0 +1,73 @@
+  PyCSP3 (Python:3.7.9, Path:C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\compiler.py)
+
+  * Generating the file essai_cop_mod2-band-reformulate_celar_150_13_15_5_0.xml completed in     0.27 seconds.
+
+
+  * Solving by Ace in progress ... 
+    with command:  java -jar C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\solvers\abscon\ACE-21-05.jar essai_cop_mod2-band-reformulate_celar_150_13_15_5_0.xml  -v=1 -npc
+  * Log file of the solver: C:\Users\HASEE\Desktop\Projet MRO\données-reformulées-cop\ACE\Band\solver_0xe094673501fa_3940_0.log
+
+ACE (AbsCon Essence) v21.05 
+
+  Instance essai_cop_mod2-band-reformulate_celar_150_13_15_5_0
+
+  Loading variables...
+  Loading constraints...
+
+  Domains
+    nTypes=274  nValues=13793  sizes=[40#26,41#27,42#17,43#44...50#21,51#22,52#21,103#1]
+  Variables
+    count=301  nAux=1  degrees=[3#11,4#36,5#18,6#56...19#2,21#2,22#2,27#2]
+  Constraints
+    count=1100  nSpecific=1099  arities=[1#2,2#1084,3#1,8#1...24#3,28#2,30#2,32#1]
+    distribution=[DistEQ2#150,DistGE2#864,Intension#1,NValuesCstLE#13,SubEQ2#70]
+    nIntStructures=(1,shared:0)
+    wck=4.97  cpu=1.171  mem=11M135
+  Objective
+    way=min  type=ObjVarLE  bounds=-714..714
+
+  Building solver... 
+
+  Solver
+    guaranteedGAC=false
+    wck=5.00  cpu=1.203  mem=9M357
+
+  Preprocessing
+    eff=320  revisions=(8,useless=5)  nValues=11033  nACremovedValues=2760  inconsistency=false
+    wck=0.015  cpu=1.218  mem=9M538
+
+o 238  5.03
+    run=0  dpt=-1..300  eff=1492  wrg=0  wck=0.03  bnds=-714..237
+    run=1  dpt=0..15  eff=4729  wrg=40  wck=0.03  bnds=238..237
+
+  Global
+    eff=4729  revisions=(100,useless=41)
+    Stop=FULL_EXPLORATION  wrong=40  bestBound=238  bestBoundWck=5.03  bestBoundCpu=1.234  foundSolutions=1  firstSolCpu=1.234
+    wck=5.03  cpu=1.234  mem=10M444
+
+
+  Solution 1 in JSON format:
+   {
+    freq_emi: [14, 28, 14, 28, 42, 84, 14, 28, 112, 14, 322, 14, 56, 84, 42, 56, 84, 84, 168, 280, 350, 14, 56, 14, 84, 14, 14, 56, 14, 84, 56, 70, 126, 14, 98, 70, 98, 28, 70, 126, 28, 56, 126, 14, 294, 336, 56, 266, 112, 14, 28, 56, 112, 14, 126, 294, 322, 252, 196, 28, 56, 14, 56, 56, 322, 154, 28, 28, 364, 56, 252, 168, 84, 98, 14, 56, 14, 266, 266, 168, 126, 28, 154, 490, 168, 28, 14, 406, 140, 70, 70, 28, 322, 70, 56, 434, 140, 28, 14, 14, 140, 98, 126, 154, 70, 14, 266, 84, 112, 98, 196, 84, 28, 14, 98, 14, 280, 84, 728, 84, 14, 14, 112, 14, 154, 98, 182, 308, 14, 84, 14, 140, 140, 322, 56, 196, 182, 98, 56, 140, 378, 364, 126, 196, 252, 14, 98, 126, 126, 322],
+    freq_rec: [252, 266, 252, 266, 280, 322, 252, 266, 350, 252, 84, 252, 294, 322, 280, 294, 322, 322, 406, 42, 112, 252, 294, 252, 322, 252, 252, 294, 252, 322, 294, 308, 364, 252, 336, 308, 336, 266, 308, 364, 266, 294, 364, 252, 56, 98, 294, 28, 350, 252, 266, 294, 350, 252, 364, 56, 84, 14, 434, 266, 294, 252, 294, 294, 84, 392, 266, 266, 126, 294, 14, 406, 322, 336, 252, 294, 252, 28, 28, 406, 364, 266, 392, 728, 406, 266, 252, 168, 378, 308, 308, 266, 84, 308, 294, 196, 378, 266, 252, 252, 378, 336, 364, 392, 308, 252, 28, 322, 350, 336, 434, 322, 266, 252, 336, 252, 42, 322, 490, 322, 252, 252, 350, 252, 392, 336, 420, 70, 252, 322, 252, 378, 378, 84, 294, 434, 420, 336, 294, 378, 140, 126, 364, 434, 14, 252, 336, 364, 364, 84]
+   }
+
+s OPTIMUM FOUND
+
+v <instantiation id='sol1' type='solution' cost='238'> <list> freq_emi[] freq_rec[] </list> <values> 14 28 14 28 42 84 14 28 112 14 322 14 56 84 42 56 84x2 168 280 350 14 56 14 84 14x2 56 14 84 56 70 126 14 98 70 98 28 70 126 28 56 126 14 294 336 56 266 112 14 28 56 112 14 126 294 322 252 196 28 56 14 56x2 322 154 28x2 364 56 252 168 84 98 14 56 14 266x2 168 126 28 154 490 168 28 14 406 140 70x2 28 322 70 56 434 140 28 14x2 140 98 126 154 70 14 266 84 112 98 196 84 28 14 98 14 280 84 728 84 14x2 112 14 154 98 182 308 14 84 14 140x2 322 56 196 182 98 56 140 378 364 126 196 252 14 98 126x2 322 252 266 252 266 280 322 252 266 350 252 84 252 294 322 280 294 322x2 406 42 112 252 294 252 322 252x2 294 252 322 294 308 364 252 336 308 336 266 308 364 266 294 364 252 56 98 294 28 350 252 266 294 350 252 364 56 84 14 434 266 294 252 294x2 84 392 266x2 126 294 14 406 322 336 252 294 252 28x2 406 364 266 392 728 406 266 252 168 378 308x2 266 84 308 294 196 378 266 252x2 378 336 364 392 308 252 28 322 350 336 434 322 266 252 336 252 42 322 490 322 252x2 350 252 392 336 420 70 252 322 252 378x2 84 294 434 420 336 294 378 140 126 364 434 14 252 336 364x2 84 </values> </instantiation>
+
+d WRONG DECISIONS 40
+d NUMBER OF SOLUTIONS 1
+d BOUND 238
+d COMPLETE EXPLORATION
+
+c real time : 1.234
+
+  * Solved by Ace in     5.84 seconds
+
+  NB: use the solver option v, as in -solver=[choco,v] or -solver=[ace,v] to see directly the output of the solver.
+
+<instantiation type="solution optimal" cost="238">
+  <list> freq_emi[] freq_rec[] </list>
+  <values> 14 28 14 28 42 84 14 28 112 14 322 14 56 84 42 56 84x2 168 280 350 14 56 14 84 14x2 56 14 84 56 70 126 14 98 70 98 28 70 126 28 56 126 14 294 336 56 266 112 14 28 56 112 14 126 294 322 252 196 28 56 14 56x2 322 154 28x2 364 56 252 168 84 98 14 56 14 266x2 168 126 28 154 490 168 28 14 406 140 70x2 28 322 70 56 434 140 28 14x2 140 98 126 154 70 14 266 84 112 98 196 84 28 14 98 14 280 84 728 84 14x2 112 14 154 98 182 308 14 84 14 140x2 322 56 196 182 98 56 140 378 364 126 196 252 14 98 126x2 322 252 266 252 266 280 322 252 266 350 252 84 252 294 322 280 294 322x2 406 42 112 252 294 252 322 252x2 294 252 322 294 308 364 252 336 308 336 266 308 364 266 294 364 252 56 98 294 28 350 252 266 294 350 252 364 56 84 14 434 266 294 252 294x2 84 392 266x2 126 294 14 406 322 336 252 294 252 28x2 406 364 266 392 728 406 266 252 168 378 308x2 266 84 308 294 196 378 266 252x2 378 336 364 392 308 252 28 322 350 336 434 322 266 252 336 252 42 322 490 322 252x2 350 252 392 336 420 70 252 322 252 378x2 84 294 434 420 336 294 378 140 126 364 434 14 252 336 364x2 84 </values>
+</instantiation>

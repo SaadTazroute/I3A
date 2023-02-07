@@ -1,0 +1,12 @@
+  PyCSP3 (Python:3.7.9, Path:C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\compiler.py)
+
+  * Generating the file essai_cop_mod2-card-reformulate_celar_50_7_10_5_0.xml completed in     0.14 seconds.
+
+c Choco e747e1e
+s OPTIMUM FOUND
+v <instantiation>
+v 	<list>freq_emi[0] freq_emi[1] freq_emi[2] freq_emi[3] freq_emi[4] freq_emi[5] freq_emi[6] freq_emi[7] freq_emi[8] freq_emi[9] freq_emi[10] freq_emi[11] freq_emi[12] freq_emi[13] freq_emi[14] freq_emi[15] freq_emi[16] freq_emi[17] freq_emi[18] freq_emi[19] freq_emi[20] freq_emi[21] freq_emi[22] freq_emi[23] freq_emi[24] freq_emi[25] freq_emi[26] freq_emi[27] freq_emi[28] freq_emi[29] freq_emi[30] freq_emi[31] freq_emi[32] freq_emi[33] freq_emi[34] freq_emi[35] freq_emi[36] freq_emi[37] freq_emi[38] freq_emi[39] freq_emi[40] freq_emi[41] freq_emi[42] freq_emi[43] freq_emi[44] freq_emi[45] freq_emi[46] freq_emi[47] freq_emi[48] freq_emi[49] freq_rec[0] freq_rec[1] freq_rec[2] freq_rec[3] freq_rec[4] freq_rec[5] freq_rec[6] freq_rec[7] freq_rec[8] freq_rec[9] freq_rec[10] freq_rec[11] freq_rec[12] freq_rec[13] freq_rec[14] freq_rec[15] freq_rec[16] freq_rec[17] freq_rec[18] freq_rec[19] freq_rec[20] freq_rec[21] freq_rec[22] freq_rec[23] freq_rec[24] freq_rec[25] freq_rec[26] freq_rec[27] freq_rec[28] freq_rec[29] freq_rec[30] freq_rec[31] freq_rec[32] freq_rec[33] freq_rec[34] freq_rec[35] freq_rec[36] freq_rec[37] freq_rec[38] freq_rec[39] freq_rec[40] freq_rec[41] freq_rec[42] freq_rec[43] freq_rec[44] freq_rec[45] freq_rec[46] freq_rec[47] freq_rec[48] freq_rec[49] </list>
+v 	<values>182 252 98 504 98 504 98 182 98 28 504 182 28 182 98 98 98 98 658 658 28 98 28 252 28 98 182 28 658 98 504 504 182 98 504 28 98 98 98 658 98 98 28 28 182 658 28 252 28 252 28 98 252 658 252 658 252 28 252 182 658 28 182 28 252 252 252 252 504 504 182 252 182 98 182 252 28 182 504 252 658 658 28 252 658 182 252 252 252 504 252 252 182 182 28 504 182 98 182 98 </values>
+v </instantiation>
+
+Wall time: 23min 19s

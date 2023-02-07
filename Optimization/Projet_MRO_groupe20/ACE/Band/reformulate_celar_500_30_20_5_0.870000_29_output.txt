@@ -1,0 +1,73 @@
+  PyCSP3 (Python:3.7.9, Path:C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\compiler.py)
+
+  * Generating the file essai_cop_mod2-band-reformulate_celar_50_7_10_5_0.xml completed in     0.11 seconds.
+
+
+  * Solving by Ace in progress ... 
+    with command:  java -jar C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\solvers\abscon\ACE-21-05.jar essai_cop_mod2-band-reformulate_celar_50_7_10_5_0.xml  -v=1 -npc
+  * Log file of the solver: C:\Users\HASEE\Desktop\Projet MRO\données-reformulées-cop\ACE\Band\solver_0xe094673501fa_2380_0.log
+
+ACE (AbsCon Essence) v21.05 
+
+  Instance essai_cop_mod2-band-reformulate_celar_50_7_10_5_0
+
+  Loading variables...
+  Loading constraints...
+
+  Domains
+    nTypes=87  nValues=4722  sizes=[40#7,41#6,42#9,43#6...50#4,51#3,52#15,103#1]
+  Variables
+    count=101  nAux=1  degrees=[3#5,4#24,5#4,6#24...11#2,12#6,13#2,17#2]
+  Constraints
+    count=294  nSpecific=293  arities=[1#2,2#284,3#1,6#1...14#1,16#2,18#1,20#1]
+    distribution=[DistEQ2#50,DistGE2#220,Intension#1,NValuesCstLE#7,SubEQ2#14]
+    nIntStructures=(1,shared:0)
+    wck=4.79  cpu=1.046  mem=6M105
+  Objective
+    way=min  type=ObjVarLE  bounds=-714..714
+
+  Building solver... 
+
+  Solver
+    guaranteedGAC=false
+    wck=4.83  cpu=1.078  mem=8M96
+
+  Preprocessing
+    eff=71  revisions=(3,useless=2)  nValues=4066  nACremovedValues=656  inconsistency=false
+    wck=0.015  cpu=1.093  mem=8M180
+
+o 266  4.85
+    run=0  dpt=30..100  eff=384  wrg=5  wck=0.01  ngd=5  bnds=-714..265
+    run=1  dpt=0..1  eff=861  wrg=68  wck=0.03  ngd=5  bnds=266..265
+
+  Global
+    eff=861  revisions=(241,useless=89)  nogoods=5
+    Stop=FULL_EXPLORATION  wrong=68  bestBound=266  bestBoundWck=4.848  bestBoundCpu=1.093  foundSolutions=1  firstSolCpu=1.093
+    wck=4.86  cpu=1.109  mem=8M520
+
+
+  Solution 1 in JSON format:
+   {
+    freq_emi: [14, 14, 14, 28, 28, 14, 98, 14, 14, 14, 42, 280, 14, 98, 28, 56, 56, 280, 98, 14, 14, 56, 364, 42, 28, 84, 42, 56, 84, 84, 56, 294, 112, 84, 140, 112, 378, 84, 364, 84, 126, 112, 350, 14, 14, 70, 14, 98, 56, 406],
+    freq_rec: [280, 280, 280, 294, 294, 280, 364, 280, 280, 280, 308, 14, 280, 364, 294, 322, 322, 14, 364, 280, 280, 322, 98, 308, 294, 350, 308, 322, 350, 350, 322, 28, 378, 350, 406, 378, 112, 350, 98, 350, 392, 378, 84, 280, 280, 336, 280, 364, 322, 140]
+   }
+
+s OPTIMUM FOUND
+
+v <instantiation id='sol1' type='solution' cost='266'> <list> freq_emi[] freq_rec[] </list> <values> 14x3 28x2 14 98 14x3 42 280 14 98 28 56x2 280 98 14x2 56 364 42 28 84 42 56 84x2 56 294 112 84 140 112 378 84 364 84 126 112 350 14x2 70 14 98 56 406 280x3 294x2 280 364 280x3 308 14 280 364 294 322x2 14 364 280x2 322 98 308 294 350 308 322 350x2 322 28 378 350 406 378 112 350 98 350 392 378 84 280x2 336 280 364 322 140 </values> </instantiation>
+
+d WRONG DECISIONS 68
+d NUMBER OF SOLUTIONS 1
+d BOUND 266
+d COMPLETE EXPLORATION
+
+c real time : 1.125
+
+  * Solved by Ace in     5.74 seconds
+
+  NB: use the solver option v, as in -solver=[choco,v] or -solver=[ace,v] to see directly the output of the solver.
+
+<instantiation type="solution optimal" cost="266">
+  <list> freq_emi[] freq_rec[] </list>
+  <values> 14x3 28x2 14 98 14x3 42 280 14 98 28 56x2 280 98 14x2 56 364 42 28 84 42 56 84x2 56 294 112 84 140 112 378 84 364 84 126 112 350 14x2 70 14 98 56 406 280x3 294x2 280 364 280x3 308 14 280 364 294 322x2 14 364 280x2 322 98 308 294 350 308 322 350x2 322 28 378 350 406 378 112 350 98 350 392 378 84 280x2 336 280 364 322 140 </values>
+</instantiation>

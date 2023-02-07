@@ -1,0 +1,421 @@
+<instance format="XCSP3" type="COP">
+  <variables>
+    <array id="freq_emi" size="[50]">
+      <domain for="freq_emi[0]"> 14 28 42 56 70 84 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[1]"> 14 28 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 280 294 308 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[2] freq_emi[42..43] freq_emi[47]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[3]"> 14 28 42 56 70 84 112 140 154 168 196 210 224 238 252 266 280 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 588 602 616 630 644 658 686 700 728 </domain>
+      <domain for="freq_emi[4]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 322 336 364 378 406 420 434 448 476 490 504 518 546 560 574 588 602 616 644 658 672 686 700 728 </domain>
+      <domain for="freq_emi[5]"> 28 56 84 98 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 588 602 630 644 658 672 686 700 728 </domain>
+      <domain for="freq_emi[6]"> 14 28 56 70 84 98 112 126 140 168 182 196 210 224 238 252 266 308 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 574 588 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[7]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[8]"> 14 28 42 56 70 84 98 112 126 140 154 168 196 210 224 238 266 280 294 308 322 336 350 364 378 392 406 448 490 504 518 532 574 602 616 630 644 658 700 714 728 </domain>
+      <domain for="freq_emi[9]"> 14 28 56 70 84 98 126 140 154 168 182 196 210 238 252 280 294 308 322 350 364 392 406 420 434 462 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[10]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[11]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 560 574 588 602 616 630 644 658 672 686 700 728 </domain>
+      <domain for="freq_emi[12]"> 14 28 42 56 70 84 98 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[13]"> 14 28 42 56 70 84 98 112 126 154 168 182 196 210 224 238 252 266 280 294 308 322 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 728 </domain>
+      <domain for="freq_emi[14]"> 14 28 56 70 98 112 140 154 168 182 224 238 252 266 280 294 308 322 336 350 378 392 420 434 448 462 476 490 504 546 560 574 588 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[15]"> 28 42 56 84 98 112 126 140 168 182 196 210 224 238 266 294 308 322 350 364 378 392 406 434 462 504 518 532 546 560 574 588 602 630 644 658 672 686 700 714 </domain>
+      <domain for="freq_emi[16]"> 14 28 42 56 70 84 98 112 126 154 168 182 196 210 224 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[17]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 644 658 672 686 714 728 </domain>
+      <domain for="freq_emi[18]"> 28 42 56 70 98 112 126 140 154 168 182 196 210 238 266 280 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 588 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[19]"> 14 28 42 56 70 84 112 126 140 154 168 182 196 210 238 266 280 294 308 350 364 378 392 406 420 434 448 462 476 490 518 532 546 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[20]"> 14 28 42 56 70 84 98 112 126 154 168 182 210 224 238 252 266 280 294 308 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[21]"> 14 28 56 70 84 98 112 126 154 168 182 196 210 252 266 280 294 308 322 336 364 378 392 406 420 434 448 462 476 490 504 518 532 546 588 602 616 630 644 658 686 700 714 728 </domain>
+      <domain for="freq_emi[22]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 280 294 308 322 336 350 364 392 406 420 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[23]"> 14 28 42 56 70 84 112 126 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 378 392 406 420 448 476 490 504 518 532 546 574 588 616 630 658 672 714 728 </domain>
+      <domain for="freq_emi[24]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 294 308 322 336 364 378 392 406 420 448 462 490 504 518 532 546 560 574 588 602 616 630 644 658 686 700 714 728 </domain>
+      <domain for="freq_emi[25]"> 14 28 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 560 574 588 602 616 630 644 658 672 700 714 728 </domain>
+      <domain for="freq_emi[26]"> 14 28 42 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[27]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 210 224 238 252 266 280 294 308 322 350 364 378 392 406 420 434 448 462 476 490 504 518 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[28]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[29]"> 14 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[30]"> 14 28 70 84 98 126 140 182 196 210 238 252 266 280 294 308 322 336 350 378 392 406 434 448 462 504 518 532 546 560 588 602 616 630 644 672 686 700 714 728 </domain>
+      <domain for="freq_emi[31]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 294 322 350 364 378 392 406 420 434 448 462 476 504 518 532 546 560 602 616 630 644 658 700 714 728 </domain>
+      <domain for="freq_emi[32]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 420 434 448 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[33]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[34]"> 28 42 56 84 98 126 140 168 182 196 210 224 238 252 266 280 294 336 350 364 378 392 406 420 434 448 476 490 504 518 532 546 560 588 602 616 630 644 658 700 714 728 </domain>
+      <domain for="freq_emi[35]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 462 476 504 518 532 546 560 574 588 630 644 658 672 686 700 714 </domain>
+      <domain for="freq_emi[36]"> 14 42 56 70 84 98 126 140 154 168 182 196 210 224 238 252 266 280 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 574 588 616 644 658 686 700 714 </domain>
+      <domain for="freq_emi[37]"> 14 28 42 56 84 98 112 126 140 154 168 182 196 210 224 238 280 294 322 336 364 378 406 420 448 462 504 518 532 560 574 588 602 616 630 644 658 672 686 700 728 </domain>
+      <domain for="freq_emi[38]"> 14 28 42 70 84 98 112 126 140 154 168 182 196 210 224 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 574 644 658 672 686 714 </domain>
+      <domain for="freq_emi[39]"> 28 42 56 84 98 112 126 140 154 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 448 462 504 518 532 546 560 574 588 602 630 658 672 686 700 714 </domain>
+      <domain for="freq_emi[40]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[41]"> 14 28 42 56 70 98 112 126 140 154 168 182 196 224 238 252 266 280 308 336 350 364 420 434 448 462 476 490 504 518 532 574 588 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[44]"> 70 84 140 154 168 182 196 210 224 238 252 266 294 308 322 336 350 364 378 392 406 434 448 462 476 490 504 532 546 560 574 588 602 616 630 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[45]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 448 462 476 490 504 518 532 546 560 574 588 602 616 630 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[46]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 308 322 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[48]"> 14 28 56 70 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 518 532 546 574 588 630 658 672 686 700 714 728 </domain>
+      <domain for="freq_emi[49]"> 28 42 70 98 112 126 140 154 182 196 210 224 238 252 280 308 322 336 350 364 378 392 406 434 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+    </array>
+    <array id="freq_rec" size="[50]">
+      <domain for="freq_rec[0]"> 14 28 42 56 70 84 98 126 140 154 182 196 210 224 238 252 266 280 294 308 322 336 364 378 392 406 448 462 476 490 504 518 546 560 574 588 602 630 644 658 672 686 700 714 </domain>
+      <domain for="freq_rec[1]"> 14 28 42 56 70 98 112 126 140 154 168 182 196 238 252 266 280 294 308 322 350 364 406 420 434 462 490 504 518 532 560 574 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[2] freq_rec[6] freq_rec[9] freq_rec[37] freq_rec[46..47]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[3]"> 14 42 56 84 98 112 154 168 182 196 210 224 238 252 266 280 294 308 322 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 616 630 644 658 686 700 714 728 </domain>
+      <domain for="freq_rec[4]"> 14 28 42 56 70 112 126 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 392 406 420 434 448 462 490 504 532 546 560 574 588 602 616 630 644 658 686 700 728 </domain>
+      <domain for="freq_rec[5]"> 14 28 42 56 70 84 98 112 126 140 154 168 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 434 448 462 476 504 518 546 560 574 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[7]"> 14 28 42 56 70 84 98 112 126 140 168 196 210 224 238 252 266 280 294 308 336 350 364 378 392 406 420 434 448 490 504 518 532 546 560 588 602 616 630 644 658 672 686 714 728 </domain>
+      <domain for="freq_rec[8]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 364 378 392 406 420 434 448 462 476 490 504 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[10]"> 14 42 56 70 84 112 126 140 154 168 196 210 224 238 252 308 322 336 350 364 378 392 406 420 434 448 490 504 518 532 560 574 588 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[11]"> 14 28 42 56 84 98 126 140 154 168 182 196 224 238 252 266 280 294 308 322 350 364 378 392 434 448 462 504 518 532 560 588 602 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[12]"> 14 28 42 56 70 84 98 112 126 154 168 182 196 210 224 238 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 686 700 714 </domain>
+      <domain for="freq_rec[13]"> 14 28 42 56 70 84 126 140 154 168 182 196 210 224 238 252 266 280 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 </domain>
+      <domain for="freq_rec[14]"> 14 28 42 70 84 98 112 126 140 154 182 196 210 252 266 280 294 308 336 350 364 378 392 406 420 434 448 476 490 504 532 546 560 574 588 602 616 630 672 686 714 </domain>
+      <domain for="freq_rec[15]"> 14 28 42 56 70 84 98 112 126 140 168 182 196 210 224 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[16]"> 14 28 42 56 84 98 126 140 154 168 182 210 224 238 252 266 280 294 308 322 336 364 378 392 406 448 462 476 490 518 532 546 560 574 602 616 630 644 658 672 700 714 728 </domain>
+      <domain for="freq_rec[17]"> 14 28 42 56 70 84 98 112 126 154 168 196 210 224 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 518 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[18]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 658 672 686 700 728 </domain>
+      <domain for="freq_rec[19]"> 14 28 42 70 84 98 126 140 154 168 182 210 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 532 546 560 574 588 616 630 644 658 672 686 700 714 </domain>
+      <domain for="freq_rec[20]"> 28 42 56 70 98 112 126 140 154 168 182 196 224 238 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 504 518 532 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[21]"> 14 28 42 56 84 98 112 126 168 182 196 210 224 238 252 280 308 322 336 350 364 378 392 406 420 434 448 462 476 504 518 532 546 574 588 602 616 630 644 658 672 686 700 </domain>
+      <domain for="freq_rec[22]"> 14 28 42 56 84 98 112 126 140 168 182 196 210 238 252 266 294 308 322 336 350 364 392 420 434 462 476 490 504 532 546 560 574 602 616 630 658 686 700 714 728 </domain>
+      <domain for="freq_rec[23]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 518 532 546 560 574 588 602 616 630 644 658 686 700 714 728 </domain>
+      <domain for="freq_rec[24]"> 42 56 84 98 112 126 140 154 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 672 700 714 728 </domain>
+      <domain for="freq_rec[25]"> 14 42 56 70 84 98 112 126 140 168 182 196 210 224 238 252 266 280 294 322 336 364 406 420 434 448 462 490 504 518 532 546 560 574 602 616 630 644 658 672 686 714 </domain>
+      <domain for="freq_rec[26]"> 14 28 42 56 84 98 140 154 168 196 210 224 238 252 308 322 336 350 364 378 406 420 434 462 476 490 504 518 532 546 560 574 588 616 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[27]"> 14 28 42 56 70 98 112 140 168 182 196 224 238 266 280 294 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[28]"> 28 42 56 70 84 98 112 126 154 168 196 210 224 252 280 294 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[29]"> 14 28 42 56 70 84 98 126 140 154 182 196 224 238 252 280 294 308 322 336 350 364 378 392 406 448 462 476 490 518 532 546 560 574 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[30]"> 14 28 42 56 70 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[31]"> 14 28 42 56 70 84 98 112 126 140 168 182 196 210 224 238 280 294 308 322 336 350 378 392 406 434 448 462 476 490 504 532 546 574 588 616 630 644 658 686 700 714 728 </domain>
+      <domain for="freq_rec[32]"> 14 28 42 56 84 112 126 140 154 168 182 196 210 224 238 252 280 294 308 322 336 350 364 378 392 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 644 672 700 714 728 </domain>
+      <domain for="freq_rec[33]"> 14 28 42 70 84 98 112 126 140 154 168 182 196 210 224 238 252 336 350 378 392 420 434 448 476 490 504 518 532 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[34]"> 14 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 476 490 504 518 532 546 560 574 588 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[35]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 728 </domain>
+      <domain for="freq_rec[36]"> 14 42 56 70 84 98 112 126 140 154 168 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 714 728 </domain>
+      <domain for="freq_rec[38]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 490 504 518 532 546 560 574 588 602 616 630 644 658 672 700 714 728 </domain>
+      <domain for="freq_rec[39]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 560 574 588 616 630 644 658 672 714 </domain>
+      <domain for="freq_rec[40]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 686 700 714 728 </domain>
+      <domain for="freq_rec[41]"> 14 28 42 56 70 84 98 126 154 168 182 210 224 238 252 266 280 294 308 322 350 364 392 406 420 434 448 462 476 490 504 532 546 574 588 616 630 644 686 728 </domain>
+      <domain for="freq_rec[42]"> 14 28 42 56 70 84 98 112 126 140 168 182 196 210 224 238 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[43]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[44]"> 14 28 42 70 84 98 126 154 168 182 196 224 238 252 266 294 308 336 350 378 392 406 420 448 462 476 490 504 518 532 546 560 574 602 616 630 658 672 686 714 728 </domain>
+      <domain for="freq_rec[45]"> 14 28 42 56 70 98 112 126 140 154 168 224 252 266 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 644 658 672 700 714 </domain>
+      <domain for="freq_rec[48]"> 28 42 56 70 84 98 112 126 154 168 182 196 210 224 252 266 280 294 308 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="freq_rec[49]"> 14 28 42 56 70 84 98 112 126 140 168 182 196 224 238 252 266 280 294 308 322 336 350 364 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+    </array>
+  </variables>
+  <constraints>
+    <group note="#contrainte entre les freq d'emission et de reception de chaque station">
+      <intension> eq(dist(%0,%1),154) </intension>
+      <args> freq_emi[0] freq_rec[0] </args>
+      <args> freq_emi[1] freq_rec[1] </args>
+      <args> freq_emi[2] freq_rec[2] </args>
+      <args> freq_emi[3] freq_rec[3] </args>
+      <args> freq_emi[4] freq_rec[4] </args>
+      <args> freq_emi[5] freq_rec[5] </args>
+      <args> freq_emi[6] freq_rec[6] </args>
+      <args> freq_emi[7] freq_rec[7] </args>
+      <args> freq_emi[8] freq_rec[8] </args>
+      <args> freq_emi[9] freq_rec[9] </args>
+      <args> freq_emi[10] freq_rec[10] </args>
+      <args> freq_emi[11] freq_rec[11] </args>
+      <args> freq_emi[12] freq_rec[12] </args>
+      <args> freq_emi[13] freq_rec[13] </args>
+      <args> freq_emi[14] freq_rec[14] </args>
+      <args> freq_emi[15] freq_rec[15] </args>
+      <args> freq_emi[16] freq_rec[16] </args>
+      <args> freq_emi[17] freq_rec[17] </args>
+      <args> freq_emi[18] freq_rec[18] </args>
+      <args> freq_emi[19] freq_rec[19] </args>
+      <args> freq_emi[20] freq_rec[20] </args>
+      <args> freq_emi[21] freq_rec[21] </args>
+      <args> freq_emi[22] freq_rec[22] </args>
+      <args> freq_emi[23] freq_rec[23] </args>
+      <args> freq_emi[24] freq_rec[24] </args>
+      <args> freq_emi[25] freq_rec[25] </args>
+      <args> freq_emi[26] freq_rec[26] </args>
+      <args> freq_emi[27] freq_rec[27] </args>
+      <args> freq_emi[28] freq_rec[28] </args>
+      <args> freq_emi[29] freq_rec[29] </args>
+      <args> freq_emi[30] freq_rec[30] </args>
+      <args> freq_emi[31] freq_rec[31] </args>
+      <args> freq_emi[32] freq_rec[32] </args>
+      <args> freq_emi[33] freq_rec[33] </args>
+      <args> freq_emi[34] freq_rec[34] </args>
+      <args> freq_emi[35] freq_rec[35] </args>
+      <args> freq_emi[36] freq_rec[36] </args>
+      <args> freq_emi[37] freq_rec[37] </args>
+      <args> freq_emi[38] freq_rec[38] </args>
+      <args> freq_emi[39] freq_rec[39] </args>
+      <args> freq_emi[40] freq_rec[40] </args>
+      <args> freq_emi[41] freq_rec[41] </args>
+      <args> freq_emi[42] freq_rec[42] </args>
+      <args> freq_emi[43] freq_rec[43] </args>
+      <args> freq_emi[44] freq_rec[44] </args>
+      <args> freq_emi[45] freq_rec[45] </args>
+      <args> freq_emi[46] freq_rec[46] </args>
+      <args> freq_emi[47] freq_rec[47] </args>
+      <args> freq_emi[48] freq_rec[48] </args>
+      <args> freq_emi[49] freq_rec[49] </args>
+    </group>
+    <group>
+      <intension> ge(dist(%0,%1),%2) </intension>
+      <args> freq_emi[1] freq_rec[30] 30 </args>
+      <args> freq_emi[1] freq_rec[26] 20 </args>
+      <args> freq_emi[1] freq_rec[19] 20 </args>
+      <args> freq_emi[1] freq_rec[22] 20 </args>
+      <args> freq_emi[2] freq_rec[28] 40 </args>
+      <args> freq_emi[3] freq_rec[15] 20 </args>
+      <args> freq_emi[3] freq_rec[41] 30 </args>
+      <args> freq_emi[4] freq_rec[44] 30 </args>
+      <args> freq_emi[5] freq_rec[24] 50 </args>
+      <args> freq_emi[6] freq_rec[48] 50 </args>
+      <args> freq_emi[6] freq_rec[44] 50 </args>
+      <args> freq_emi[6] freq_rec[28] 30 </args>
+      <args> freq_emi[8] freq_rec[44] 20 </args>
+      <args> freq_emi[9] freq_rec[23] 20 </args>
+      <args> freq_emi[10] freq_rec[49] 50 </args>
+      <args> freq_emi[10] freq_rec[20] 50 </args>
+      <args> freq_emi[11] freq_rec[17] 40 </args>
+      <args> freq_emi[12] freq_rec[37] 20 </args>
+      <args> freq_emi[12] freq_rec[47] 50 </args>
+      <args> freq_emi[13] freq_rec[18] 40 </args>
+      <args> freq_emi[14] freq_rec[39] 50 </args>
+      <args> freq_emi[15] freq_rec[44] 30 </args>
+      <args> freq_emi[16] freq_rec[28] 40 </args>
+      <args> freq_emi[17] freq_rec[45] 30 </args>
+      <args> freq_emi[18] freq_rec[24] 20 </args>
+      <args> freq_emi[18] freq_rec[22] 30 </args>
+      <args> freq_emi[18] freq_rec[44] 20 </args>
+      <args> freq_emi[18] freq_rec[23] 40 </args>
+      <args> freq_emi[19] freq_rec[24] 30 </args>
+      <args> freq_emi[19] freq_rec[44] 20 </args>
+      <args> freq_emi[20] freq_rec[30] 40 </args>
+      <args> freq_emi[21] freq_rec[43] 30 </args>
+      <args> freq_emi[21] freq_rec[32] 20 </args>
+      <args> freq_emi[21] freq_rec[44] 50 </args>
+      <args> freq_emi[22] freq_rec[49] 30 </args>
+      <args> freq_emi[23] freq_rec[24] 20 </args>
+      <args> freq_emi[23] freq_rec[44] 20 </args>
+      <args> freq_emi[24] freq_rec[49] 30 </args>
+      <args> freq_emi[25] freq_rec[42] 40 </args>
+      <args> freq_emi[25] freq_rec[28] 20 </args>
+      <args> freq_emi[27] freq_rec[29] 30 </args>
+      <args> freq_emi[27] freq_rec[40] 30 </args>
+      <args> freq_emi[27] freq_rec[47] 40 </args>
+      <args> freq_emi[28] freq_rec[38] 40 </args>
+      <args> freq_emi[28] freq_rec[48] 50 </args>
+      <args> freq_emi[31] freq_rec[36] 40 </args>
+      <args> freq_emi[34] freq_rec[43] 50 </args>
+      <args> freq_emi[34] freq_rec[36] 30 </args>
+      <args> freq_emi[34] freq_rec[47] 40 </args>
+      <args> freq_emi[35] freq_rec[49] 50 </args>
+      <args> freq_emi[42] freq_rec[45] 40 </args>
+      <args> freq_emi[45] freq_rec[46] 30 </args>
+    </group>
+    <group>
+      <intension> ge(dist(%0,%1),%2) </intension>
+      <args> freq_rec[1] freq_emi[30] 30 </args>
+      <args> freq_rec[1] freq_emi[26] 20 </args>
+      <args> freq_rec[1] freq_emi[19] 20 </args>
+      <args> freq_rec[1] freq_emi[22] 20 </args>
+      <args> freq_rec[2] freq_emi[28] 40 </args>
+      <args> freq_rec[3] freq_emi[15] 20 </args>
+      <args> freq_rec[3] freq_emi[41] 30 </args>
+      <args> freq_rec[4] freq_emi[44] 30 </args>
+      <args> freq_rec[5] freq_emi[24] 50 </args>
+      <args> freq_rec[6] freq_emi[48] 50 </args>
+      <args> freq_rec[6] freq_emi[44] 50 </args>
+      <args> freq_rec[6] freq_emi[28] 30 </args>
+      <args> freq_rec[8] freq_emi[44] 20 </args>
+      <args> freq_rec[9] freq_emi[23] 20 </args>
+      <args> freq_rec[10] freq_emi[49] 50 </args>
+      <args> freq_rec[10] freq_emi[20] 50 </args>
+      <args> freq_rec[11] freq_emi[17] 40 </args>
+      <args> freq_rec[12] freq_emi[37] 20 </args>
+      <args> freq_rec[12] freq_emi[47] 50 </args>
+      <args> freq_rec[13] freq_emi[18] 40 </args>
+      <args> freq_rec[14] freq_emi[39] 50 </args>
+      <args> freq_rec[15] freq_emi[44] 30 </args>
+      <args> freq_rec[16] freq_emi[28] 40 </args>
+      <args> freq_rec[17] freq_emi[45] 30 </args>
+      <args> freq_rec[18] freq_emi[24] 20 </args>
+      <args> freq_rec[18] freq_emi[22] 30 </args>
+      <args> freq_rec[18] freq_emi[44] 20 </args>
+      <args> freq_rec[18] freq_emi[23] 40 </args>
+      <args> freq_rec[19] freq_emi[24] 30 </args>
+      <args> freq_rec[19] freq_emi[44] 20 </args>
+      <args> freq_rec[20] freq_emi[30] 40 </args>
+      <args> freq_rec[21] freq_emi[43] 30 </args>
+      <args> freq_rec[21] freq_emi[32] 20 </args>
+      <args> freq_rec[21] freq_emi[44] 50 </args>
+      <args> freq_rec[22] freq_emi[49] 30 </args>
+      <args> freq_rec[23] freq_emi[24] 20 </args>
+      <args> freq_rec[23] freq_emi[44] 20 </args>
+      <args> freq_rec[24] freq_emi[49] 30 </args>
+      <args> freq_rec[25] freq_emi[42] 40 </args>
+      <args> freq_rec[25] freq_emi[28] 20 </args>
+      <args> freq_rec[27] freq_emi[29] 30 </args>
+      <args> freq_rec[27] freq_emi[40] 30 </args>
+      <args> freq_rec[27] freq_emi[47] 40 </args>
+      <args> freq_rec[28] freq_emi[38] 40 </args>
+      <args> freq_rec[28] freq_emi[48] 50 </args>
+      <args> freq_rec[31] freq_emi[36] 40 </args>
+      <args> freq_rec[34] freq_emi[43] 50 </args>
+      <args> freq_rec[34] freq_emi[36] 30 </args>
+      <args> freq_rec[34] freq_emi[47] 40 </args>
+      <args> freq_rec[35] freq_emi[49] 50 </args>
+      <args> freq_rec[42] freq_emi[45] 40 </args>
+      <args> freq_rec[45] freq_emi[46] 30 </args>
+    </group>
+    <group>
+      <intension> ge(dist(%0,%1),%2) </intension>
+      <args> freq_emi[1] freq_emi[30] 30 </args>
+      <args> freq_emi[1] freq_emi[26] 20 </args>
+      <args> freq_emi[1] freq_emi[19] 20 </args>
+      <args> freq_emi[1] freq_emi[22] 20 </args>
+      <args> freq_emi[2] freq_emi[28] 40 </args>
+      <args> freq_emi[3] freq_emi[15] 20 </args>
+      <args> freq_emi[3] freq_emi[41] 30 </args>
+      <args> freq_emi[4] freq_emi[44] 30 </args>
+      <args> freq_emi[5] freq_emi[24] 50 </args>
+      <args> freq_emi[6] freq_emi[48] 50 </args>
+      <args> freq_emi[6] freq_emi[44] 50 </args>
+      <args> freq_emi[6] freq_emi[28] 30 </args>
+      <args> freq_emi[8] freq_emi[44] 20 </args>
+      <args> freq_emi[9] freq_emi[23] 20 </args>
+      <args> freq_emi[10] freq_emi[49] 50 </args>
+      <args> freq_emi[10] freq_emi[20] 50 </args>
+      <args> freq_emi[11] freq_emi[17] 40 </args>
+      <args> freq_emi[12] freq_emi[37] 20 </args>
+      <args> freq_emi[12] freq_emi[47] 50 </args>
+      <args> freq_emi[13] freq_emi[18] 40 </args>
+      <args> freq_emi[14] freq_emi[39] 50 </args>
+      <args> freq_emi[15] freq_emi[44] 30 </args>
+      <args> freq_emi[16] freq_emi[28] 40 </args>
+      <args> freq_emi[17] freq_emi[45] 30 </args>
+      <args> freq_emi[18] freq_emi[24] 20 </args>
+      <args> freq_emi[18] freq_emi[22] 30 </args>
+      <args> freq_emi[18] freq_emi[44] 20 </args>
+      <args> freq_emi[18] freq_emi[23] 40 </args>
+      <args> freq_emi[19] freq_emi[24] 30 </args>
+      <args> freq_emi[19] freq_emi[44] 20 </args>
+      <args> freq_emi[20] freq_emi[30] 40 </args>
+      <args> freq_emi[21] freq_emi[43] 30 </args>
+      <args> freq_emi[21] freq_emi[32] 20 </args>
+      <args> freq_emi[21] freq_emi[44] 50 </args>
+      <args> freq_emi[22] freq_emi[49] 30 </args>
+      <args> freq_emi[23] freq_emi[24] 20 </args>
+      <args> freq_emi[23] freq_emi[44] 20 </args>
+      <args> freq_emi[24] freq_emi[49] 30 </args>
+      <args> freq_emi[25] freq_emi[42] 40 </args>
+      <args> freq_emi[25] freq_emi[28] 20 </args>
+      <args> freq_emi[27] freq_emi[29] 30 </args>
+      <args> freq_emi[27] freq_emi[40] 30 </args>
+      <args> freq_emi[27] freq_emi[47] 40 </args>
+      <args> freq_emi[28] freq_emi[38] 40 </args>
+      <args> freq_emi[28] freq_emi[48] 50 </args>
+      <args> freq_emi[31] freq_emi[36] 40 </args>
+      <args> freq_emi[34] freq_emi[43] 50 </args>
+      <args> freq_emi[34] freq_emi[36] 30 </args>
+      <args> freq_emi[34] freq_emi[47] 40 </args>
+      <args> freq_emi[35] freq_emi[49] 50 </args>
+      <args> freq_emi[42] freq_emi[45] 40 </args>
+      <args> freq_emi[45] freq_emi[46] 30 </args>
+    </group>
+    <group>
+      <intension> ge(dist(%0,%1),%2) </intension>
+      <args> freq_rec[1] freq_rec[30] 30 </args>
+      <args> freq_rec[1] freq_rec[26] 20 </args>
+      <args> freq_rec[1] freq_rec[19] 20 </args>
+      <args> freq_rec[1] freq_rec[22] 20 </args>
+      <args> freq_rec[2] freq_rec[28] 40 </args>
+      <args> freq_rec[3] freq_rec[15] 20 </args>
+      <args> freq_rec[3] freq_rec[41] 30 </args>
+      <args> freq_rec[4] freq_rec[44] 30 </args>
+      <args> freq_rec[5] freq_rec[24] 50 </args>
+      <args> freq_rec[6] freq_rec[48] 50 </args>
+      <args> freq_rec[6] freq_rec[44] 50 </args>
+      <args> freq_rec[6] freq_rec[28] 30 </args>
+      <args> freq_rec[8] freq_rec[44] 20 </args>
+      <args> freq_rec[9] freq_rec[23] 20 </args>
+      <args> freq_rec[10] freq_rec[49] 50 </args>
+      <args> freq_rec[10] freq_rec[20] 50 </args>
+      <args> freq_rec[11] freq_rec[17] 40 </args>
+      <args> freq_rec[12] freq_rec[37] 20 </args>
+      <args> freq_rec[12] freq_rec[47] 50 </args>
+      <args> freq_rec[13] freq_rec[18] 40 </args>
+      <args> freq_rec[14] freq_rec[39] 50 </args>
+      <args> freq_rec[15] freq_rec[44] 30 </args>
+      <args> freq_rec[16] freq_rec[28] 40 </args>
+      <args> freq_rec[17] freq_rec[45] 30 </args>
+      <args> freq_rec[18] freq_rec[24] 20 </args>
+      <args> freq_rec[18] freq_rec[22] 30 </args>
+      <args> freq_rec[18] freq_rec[44] 20 </args>
+      <args> freq_rec[18] freq_rec[23] 40 </args>
+      <args> freq_rec[19] freq_rec[24] 30 </args>
+      <args> freq_rec[19] freq_rec[44] 20 </args>
+      <args> freq_rec[20] freq_rec[30] 40 </args>
+      <args> freq_rec[21] freq_rec[43] 30 </args>
+      <args> freq_rec[21] freq_rec[32] 20 </args>
+      <args> freq_rec[21] freq_rec[44] 50 </args>
+      <args> freq_rec[22] freq_rec[49] 30 </args>
+      <args> freq_rec[23] freq_rec[24] 20 </args>
+      <args> freq_rec[23] freq_rec[44] 20 </args>
+      <args> freq_rec[24] freq_rec[49] 30 </args>
+      <args> freq_rec[25] freq_rec[42] 40 </args>
+      <args> freq_rec[25] freq_rec[28] 20 </args>
+      <args> freq_rec[27] freq_rec[29] 30 </args>
+      <args> freq_rec[27] freq_rec[40] 30 </args>
+      <args> freq_rec[27] freq_rec[47] 40 </args>
+      <args> freq_rec[28] freq_rec[38] 40 </args>
+      <args> freq_rec[28] freq_rec[48] 50 </args>
+      <args> freq_rec[31] freq_rec[36] 40 </args>
+      <args> freq_rec[34] freq_rec[43] 50 </args>
+      <args> freq_rec[34] freq_rec[36] 30 </args>
+      <args> freq_rec[34] freq_rec[47] 40 </args>
+      <args> freq_rec[35] freq_rec[49] 50 </args>
+      <args> freq_rec[42] freq_rec[45] 40 </args>
+      <args> freq_rec[45] freq_rec[46] 30 </args>
+    </group>
+    <group note="#contrainte relative aux liaisons">
+      <intension> eq(%0,%1) </intension>
+      <args> freq_emi[0] freq_rec[20] </args>
+      <args> freq_emi[0] freq_rec[22] </args>
+      <args> freq_emi[3] freq_rec[28] </args>
+      <args> freq_emi[6] freq_rec[47] </args>
+      <args> freq_emi[7] freq_rec[48] </args>
+      <args> freq_emi[7] freq_rec[12] </args>
+      <args> freq_emi[9] freq_rec[13] </args>
+      <args> freq_emi[10] freq_rec[18] </args>
+      <args> freq_emi[14] freq_rec[47] </args>
+      <args> freq_emi[29] freq_rec[47] </args>
+      <args> freq_emi[33] freq_rec[47] </args>
+      <args> freq_emi[37] freq_rec[47] </args>
+    </group>
+    <group>
+      <intension> eq(%0,%1) </intension>
+      <args> freq_rec[0] freq_emi[20] </args>
+      <args> freq_rec[0] freq_emi[22] </args>
+      <args> freq_rec[3] freq_emi[28] </args>
+      <args> freq_rec[6] freq_emi[47] </args>
+      <args> freq_rec[7] freq_emi[48] </args>
+      <args> freq_rec[7] freq_emi[12] </args>
+      <args> freq_rec[9] freq_emi[13] </args>
+      <args> freq_rec[10] freq_emi[18] </args>
+      <args> freq_rec[14] freq_emi[47] </args>
+      <args> freq_rec[29] freq_emi[47] </args>
+      <args> freq_rec[33] freq_emi[47] </args>
+      <args> freq_rec[37] freq_emi[47] </args>
+    </group>
+    <group>
+      <nValues>
+        <list> %... </list>
+        <condition> (le,%0) </condition>
+      </nValues>
+      <args> 15 freq_emi[2] freq_rec[2] freq_emi[4] freq_rec[4] freq_emi[7] freq_rec[7] freq_emi[12] freq_rec[12] freq_emi[33] freq_rec[33] freq_emi[37] freq_rec[37] freq_emi[47] freq_rec[47] freq_emi[48] freq_rec[48] </args>
+      <args> 11 freq_emi[8] freq_rec[8] freq_emi[10] freq_rec[10] freq_emi[13] freq_rec[13] freq_emi[18] freq_rec[18] freq_emi[19] freq_rec[19] freq_emi[44] freq_rec[44] </args>
+      <args> 20 freq_emi[1] freq_rec[1] freq_emi[15] freq_rec[15] freq_emi[16] freq_rec[16] freq_emi[17] freq_rec[17] freq_emi[25] freq_rec[25] freq_emi[26] freq_rec[26] freq_emi[38] freq_rec[38] freq_emi[42] freq_rec[42] freq_emi[45] freq_rec[45] freq_emi[46] freq_rec[46] </args>
+      <args> 6 freq_emi[6] freq_rec[6] freq_emi[14] freq_rec[14] freq_emi[28] freq_rec[28] freq_emi[32] freq_rec[32] </args>
+      <args> 18 freq_emi[0] freq_rec[0] freq_emi[5] freq_rec[5] freq_emi[9] freq_rec[9] freq_emi[20] freq_rec[20] freq_emi[22] freq_rec[22] freq_emi[24] freq_rec[24] freq_emi[30] freq_rec[30] freq_emi[35] freq_rec[35] freq_emi[49] freq_rec[49] </args>
+      <args> 16 freq_emi[21] freq_rec[21] freq_emi[27] freq_rec[27] freq_emi[29] freq_rec[29] freq_emi[31] freq_rec[31] freq_emi[34] freq_rec[34] freq_emi[36] freq_rec[36] freq_emi[39] freq_rec[39] freq_emi[40] freq_rec[40] freq_emi[43] freq_rec[43] </args>
+      <args> 8 freq_emi[3] freq_rec[3] freq_emi[11] freq_rec[11] freq_emi[23] freq_rec[23] freq_emi[41] freq_rec[41] </args>
+    </group>
+  </constraints>
+  <objectives>
+    <minimize> freq_rec[49] </minimize>
+  </objectives>
+</instance>

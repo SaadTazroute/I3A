@@ -1,0 +1,163 @@
+  PyCSP3 (Python:3.7.9, Path:C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\compiler.py)
+
+  * Generating the file essai_cop_mod2-card-reformulate_celar_150_13_15_5_0.xml completed in     0.28 seconds.
+
+
+  * Solving by Ace in progress ... 
+    with command:  java -jar C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\solvers\abscon\ACE-21-05.jar essai_cop_mod2-card-reformulate_celar_150_13_15_5_0.xml  -v=1 -npc
+  * Log file of the solver: C:\Users\HASEE\Desktop\Projet MRO\données-reformulées-cop\ACE\Card\solver_0xe094673501fa_13188_0.log
+
+ACE (AbsCon Essence) v21.05 
+
+  Instance essai_cop_mod2-card-reformulate_celar_150_13_15_5_0
+
+  Loading variables...
+  Loading constraints...
+
+  Domains
+    nTypes=278  nValues=13709  sizes=[40#25,41#30,42#22,43#27...49#21,50#20,51#23,52#20]
+  Variables
+    count=300  degrees=[5#4,6#26,7#14,8#54...18#2,19#8,20#2,21#4]
+  Constraints
+    count=1135  nSpecific=1135  arities=[2#1120,6#1,16#1,18#2...26#1,28#2,30#3,300#2]
+    distribution=[DistEQ2#150,DistGE2#908,NValuesCstGE#1,NValuesCstLE#14,SubEQ2#62]
+    wck=5.00  cpu=1.281  mem=11M199
+  Objective
+    way=min  type=NValuesCstLE  bounds=1..300
+
+  Building solver... 
+
+  Solver
+    guaranteedGAC=false
+    wck=5.03  cpu=1.312  mem=9M726
+
+  Preprocessing
+    eff=276  nValues=10661  nACremovedValues=3048  inconsistency=false
+    wck=0.015  cpu=1.328  mem=9M815
+
+o 32  5.06
+o 30  5.08
+o 28  5.09
+    run=0  dpt=19..299  eff=2897  wrg=111  wck=0.06  ngd=11  bnds=1..27
+    run=1  dpt=56..93  eff=4480  wrg=311  wck=0.13  ngd=16  bnds=1..27
+o 26  5.18
+    run=2  dpt=25..299  eff=6963  wrg=487  wck=0.17  ngd=25  bnds=1..25
+o 24  5.22
+o 22  5.24
+o 20  5.26
+    run=3  dpt=19..299  eff=10027  wrg=740  wck=0.23  ngd=41  bnds=1..19
+    run=4  dpt=19..65  eff=11550  wrg=866  wck=0.25  ngd=61  bnds=1..19
+    run=5  dpt=21..52  eff=13335  wrg=985  wck=0.26  ngd=75  bnds=1..19
+o 19  5.31
+o 18  5.32
+    run=6  dpt=19..299  eff=15319  wrg=1184  wck=0.29  ngd=85  bnds=1..17
+o 17  5.33
+o 16  5.37
+o 14  5.38
+    run=7  dpt=8..299  eff=19547  wrg=1408  wck=0.36  ngd=93  bnds=1..13
+    run=8  dpt=16..56  eff=20950  wrg=1513  wck=0.37  ngd=123  bnds=1..13
+    run=9  dpt=37..80  eff=23002  wrg=1634  wck=0.39  ngd=137  bnds=1..13
+    run=10  dpt=12..16  eff=26031  wrg=1764  wck=0.40  ngd=151  bnds=1..13
+o 12  5.45
+    run=11  dpt=5..299  eff=29557  wrg=1971  wck=0.43  ngd=158  bnds=1..11
+    run=12  dpt=8..12  eff=32039  wrg=2077  wck=0.44  ngd=177  bnds=1..11
+o 11  5.49
+o 10  5.51
+    run=13  dpt=5..299  eff=36342  wrg=2254  wck=0.49  ngd=191  bnds=1..9
+    run=14  dpt=7..10  eff=39278  wrg=2361  wck=0.50  ngd=209  bnds=1..9
+    run=15  dpt=4..53  eff=41640  wrg=2496  wck=0.51  ngd=216  bnds=1..9
+    run=16  dpt=7..12  eff=44807  wrg=2627  wck=0.52  ngd=219  bnds=1..9
+    run=17  dpt=5..38  eff=47724  wrg=2784  wck=0.55  ngd=263  bnds=1..9
+    run=18  dpt=5..13  eff=51119  wrg=2943  wck=0.56  ngd=296  bnds=1..9
+o 9  5.61
+    run=19  dpt=4..299  eff=54828  wrg=3165  wck=0.59  ngd=302  bnds=1..8
+    run=20  dpt=4..25  eff=58454  wrg=3301  wck=0.62  ngd=312  bnds=1..8
+    run=21  dpt=5..12  eff=60587  wrg=3420  wck=0.63  ngd=343  bnds=1..8
+    run=22  dpt=5..39  eff=64024  wrg=3563  wck=0.65  ngd=349  bnds=1..8
+o 8  5.70
+    run=23  dpt=6..299  eff=67058  wrg=3725  wck=0.67  ngd=364  bnds=1..7
+    run=24  dpt=5..11  eff=68423  wrg=3830  wck=0.68  ngd=383  bnds=1..7
+    run=25  dpt=5..13  eff=71247  wrg=3948  wck=0.69  ngd=428  bnds=1..7
+    run=26  dpt=5..23  eff=75210  wrg=4077  wck=0.71  ngd=474  bnds=1..7
+    run=27  dpt=5..13  eff=77633  wrg=4221  wck=0.72  ngd=502  bnds=1..7
+    run=28  dpt=5..27  eff=81043  wrg=4377  wck=0.74  ngd=588  bnds=1..7
+    run=29  dpt=5..16  eff=84462  wrg=4558  wck=0.76  ngd=617  bnds=1..7
+    run=30  dpt=5..15  eff=88378  wrg=4753  wck=0.79  ngd=631  bnds=1..7
+    run=31  dpt=6..28  eff=91036  wrg=4968  wck=0.80  ngd=672  bnds=1..7
+    run=32  dpt=5..17  eff=94663  wrg=5202  wck=0.83  ngd=689  bnds=1..7
+    run=33  dpt=7..29  eff=98456  wrg=5471  wck=0.85  ngd=730  bnds=1..7
+    run=34  dpt=5..17  eff=103167  wrg=5753  wck=0.90  ngd=768  bnds=1..7
+    run=35  dpt=4..18  eff=107973  wrg=6059  wck=0.94  ngd=796  bnds=1..7
+    run=36  dpt=5..15  eff=113305  wrg=6399  wck=0.98  ngd=828  bnds=1..7
+    run=37  dpt=9..15  eff=117356  wrg=6781  wck=1.00  ngd=863  bnds=1..7
+    run=38  dpt=4..16  eff=124510  wrg=7185  wck=1.03  ngd=887  bnds=1..7
+    run=39  dpt=5..15  eff=130948  wrg=7638  wck=1.07  ngd=902  bnds=1..7
+    run=40  dpt=6..19  eff=136805  wrg=8149  wck=1.10  ngd=960  bnds=1..7
+    run=41  dpt=5..15  eff=145804  wrg=8689  wck=1.14  ngd=993  bnds=1..7
+    run=42  dpt=5..15  eff=157617  wrg=9303  wck=1.19  ngd=1007  bnds=1..7
+    run=43  dpt=5..15  eff=165808  wrg=9960  wck=1.21  ngd=1098  bnds=1..7
+    run=44  dpt=6..13  eff=177925  wrg=10680  wck=1.27  ngd=1121  bnds=1..7
+    run=45  dpt=5..13  eff=195698  wrg=11502  wck=1.32  ngd=1137  bnds=1..7
+    run=46  dpt=6..13  eff=213609  wrg=12363  wck=1.36  ngd=1165  bnds=1..7
+    run=47  dpt=4..17  eff=225296  wrg=13350  wck=1.43  ngd=1236  bnds=1..7
+    run=48  dpt=4..14  eff=240725  wrg=14394  wck=1.48  ngd=1283  bnds=1..7
+    run=49  dpt=4..13  eff=256876  wrg=15556  wck=1.56  ngd=1352  bnds=1..7
+    run=50  dpt=4..14  eff=280565  wrg=16859  wck=1.65  ngd=1380  bnds=1..7
+    run=51  dpt=4..10  eff=301898  wrg=18247  wck=1.72  ngd=1408  bnds=1..7
+    run=52  dpt=4..12  eff=326232  wrg=19767  wck=1.80  ngd=1455  bnds=1..7
+    ...resetting weights (nValues: 10661)
+    run=53  dpt=2..17  eff=342633  wrg=21519  wck=1.91  ngd=1494  bnds=1..7
+    run=54  dpt=1..5  eff=386208  wrg=23476  wck=2.00  ngd=1520  bnds=1..7
+    run=55  dpt=1..4  eff=404028  wrg=25536  wck=2.10  ngd=1543  bnds=1..7
+    run=56  dpt=1..4  eff=468809  wrg=27906  wck=2.27  ngd=1580  bnds=1..7
+    run=57  dpt=1..4  eff=492585  wrg=30556  wck=2.38  ngd=1621  bnds=1..7
+    run=58  dpt=0..4  eff=540946  wrg=33537  wck=2.55  ngd=1652  bnds=1..7
+    run=59  dpt=0..4  eff=575479  wrg=36702  wck=2.73  ngd=1672  bnds=1..7
+    run=60  dpt=2..4  eff=609250  wrg=40001  wck=2.89  ngd=1701  bnds=1..7
+    run=61  dpt=0..3  eff=679640  wrg=44005  wck=3.18  ngd=1727  bnds=1..7
+    run=62  dpt=0..3  eff=793817  wrg=48468  wck=3.52  ngd=1746  bnds=1..7
+    run=63  dpt=0..3  eff=904376  wrg=53219  wck=3.83  ngd=1765  bnds=1..7
+    run=64  dpt=0..3  eff=1020384  wrg=58704  wck=4.19  ngd=1784  bnds=1..7
+    run=65  dpt=0..4  eff=1146607  wrg=64614  wck=4.56  ngd=1800  bnds=1..7
+    run=66  dpt=0..4  eff=1289597  wrg=71077  wck=5.03  ngd=1819  bnds=1..7
+    run=67  dpt=0..4  eff=1433255  wrg=78175  wck=5.47  ngd=1841  bnds=1..7
+    run=68  dpt=0..4  eff=1594235  wrg=85964  wck=5.94  ngd=1854  bnds=1..7
+    run=69  dpt=0..4  eff=1729987  wrg=94338  wck=6.37  ngd=1880  bnds=1..7
+    run=70  dpt=0..4  eff=1939444  wrg=104029  wck=7.05  ngd=1905  bnds=1..7
+    run=71  dpt=0..4  eff=2158273  wrg=114599  wck=7.73  ngd=1916  bnds=1..7
+    run=72  dpt=0..4  eff=2388817  wrg=126226  wck=8.45  ngd=1932  bnds=1..7
+    run=73  dpt=0..4  eff=2686104  wrg=139720  wck=9.36  ngd=1960  bnds=1..7
+    run=74  dpt=0..3  eff=3008333  wrg=154665  wck=10.2  ngd=1976  bnds=1..7
+    run=75  dpt=0..3  eff=3086698  wrg=157736  wck=10.5  ngd=1976  bnds=8..7
+
+  Global
+    eff=3086698  nogoods=1976
+    Stop=FULL_EXPLORATION  wrong=157736  bestBound=8  bestBoundWck=5.697  bestBoundCpu=1.937  foundSolutions=17  firstSolCpu=1.343
+    wck=15.5  cpu=11.609  mem=13M436
+
+
+  Solution 17 in JSON format:
+   {
+    freq_emi: [658, 658, 336, 126, 504, 658, 658, 658, 448, 336, 658, 504, 126, 504, 336, 448, 182, 448, 126, 182, 182, 448, 658, 448, 336, 126, 504, 126, 504, 504, 658, 504, 336, 448, 658, 588, 658, 588, 182, 658, 182, 658, 448, 658, 266, 126, 182, 336, 504, 658, 182, 126, 658, 658, 658, 658, 504, 266, 448, 182, 658, 266, 336, 182, 658, 658, 448, 126, 126, 658, 266, 588, 448, 448, 336, 658, 336, 182, 448, 448, 126, 126, 182, 126, 182, 504, 182, 126, 126, 266, 336, 588, 336, 266, 504, 658, 182, 266, 126, 336, 336, 658, 504, 336, 448, 448, 126, 448, 504, 658, 658, 126, 126, 182, 182, 336, 126, 126, 336, 336, 182, 658, 336, 448, 448, 504, 266, 266, 126, 504, 504, 126, 182, 504, 448, 658, 182, 336, 504, 266, 448, 182, 504, 504, 504, 266, 336, 448, 504, 266],
+    freq_rec: [336, 336, 658, 448, 182, 336, 336, 336, 126, 658, 336, 182, 448, 182, 658, 126, 504, 126, 448, 504, 504, 126, 336, 126, 658, 448, 182, 448, 182, 182, 336, 182, 658, 126, 336, 266, 336, 266, 504, 336, 504, 336, 126, 336, 588, 448, 504, 658, 182, 336, 504, 448, 336, 336, 336, 336, 182, 588, 126, 504, 336, 588, 658, 504, 336, 336, 126, 448, 448, 336, 588, 266, 126, 126, 658, 336, 658, 504, 126, 126, 448, 448, 504, 448, 504, 182, 504, 448, 448, 588, 658, 266, 658, 588, 182, 336, 504, 588, 448, 658, 658, 336, 182, 658, 126, 126, 448, 126, 182, 336, 336, 448, 448, 504, 504, 658, 448, 448, 658, 658, 504, 336, 658, 126, 126, 182, 588, 588, 448, 182, 182, 448, 504, 182, 126, 336, 504, 658, 182, 588, 126, 504, 182, 182, 182, 588, 658, 126, 182, 588]
+   }
+
+s OPTIMUM FOUND
+
+v <instantiation id='sol17' type='solution' cost='8'> <list> freq_emi[] freq_rec[] </list> <values> 658x2 336 126 504 658x3 448 336 658 504 126 504 336 448 182 448 126 182x2 448 658 448 336 126 504 126 504x2 658 504 336 448 658 588 658 588 182 658 182 658 448 658 266 126 182 336 504 658 182 126 658x4 504 266 448 182 658 266 336 182 658x2 448 126x2 658 266 588 448x2 336 658 336 182 448x2 126x2 182 126 182 504 182 126x2 266 336 588 336 266 504 658 182 266 126 336x2 658 504 336 448x2 126 448 504 658x2 126x2 182x2 336 126x2 336x2 182 658 336 448x2 504 266x2 126 504x2 126 182 504 448 658 182 336 504 266 448 182 504x3 266 336 448 504 266 336x2 658 448 182 336x3 126 658 336 182 448 182 658 126 504 126 448 504x2 126 336 126 658 448 182 448 182x2 336 182 658 126 336 266 336 266 504 336 504 336 126 336 588 448 504 658 182 336 504 448 336x4 182 588 126 504 336 588 658 504 336x2 126 448x2 336 588 266 126x2 658 336 658 504 126x2 448x2 504 448 504 182 504 448x2 588 658 266 658 588 182 336 504 588 448 658x2 336 182 658 126x2 448 126 182 336x2 448x2 504x2 658 448x2 658x2 504 336 658 126x2 182 588x2 448 182x2 448 504 182 126 336 504 658 182 588 126 504 182x3 588 658 126 182 588 </values> </instantiation>
+
+d WRONG DECISIONS 157736
+d NUMBER OF SOLUTIONS 17
+d BOUND 8
+d COMPLETE EXPLORATION
+
+c real time : 11.609
+
+  * Solved by Ace in    16.38 seconds
+
+  NB: use the solver option v, as in -solver=[choco,v] or -solver=[ace,v] to see directly the output of the solver.
+
+<instantiation type="solution optimal" cost="8">
+  <list> freq_emi[] freq_rec[] </list>
+  <values> 658x2 336 126 504 658x3 448 336 658 504 126 504 336 448 182 448 126 182x2 448 658 448 336 126 504 126 504x2 658 504 336 448 658 588 658 588 182 658 182 658 448 658 266 126 182 336 504 658 182 126 658x4 504 266 448 182 658 266 336 182 658x2 448 126x2 658 266 588 448x2 336 658 336 182 448x2 126x2 182 126 182 504 182 126x2 266 336 588 336 266 504 658 182 266 126 336x2 658 504 336 448x2 126 448 504 658x2 126x2 182x2 336 126x2 336x2 182 658 336 448x2 504 266x2 126 504x2 126 182 504 448 658 182 336 504 266 448 182 504x3 266 336 448 504 266 336x2 658 448 182 336x3 126 658 336 182 448 182 658 126 504 126 448 504x2 126 336 126 658 448 182 448 182x2 336 182 658 126 336 266 336 266 504 336 504 336 126 336 588 448 504 658 182 336 504 448 336x4 182 588 126 504 336 588 658 504 336x2 126 448x2 336 588 266 126x2 658 336 658 504 126x2 448x2 504 448 504 182 504 448x2 588 658 266 658 588 182 336 504 588 448 658x2 336 182 658 126x2 448 126 182 336x2 448x2 504x2 658 448x2 658x2 504 336 658 126x2 182 588x2 448 182x2 448 504 182 126 336 504 658 182 588 126 504 182x3 588 658 126 182 588 </values>
+</instantiation>

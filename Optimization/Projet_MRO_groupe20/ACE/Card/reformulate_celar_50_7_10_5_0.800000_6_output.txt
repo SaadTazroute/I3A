@@ -1,0 +1,143 @@
+  PyCSP3 (Python:3.7.9, Path:C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\compiler.py)
+
+  * Generating the file essai_cop_mod2-card-reformulate_celar_50_7_10_5_0.xml completed in     0.16 seconds.
+
+
+  * Solving by Ace in progress ... 
+    with command:  java -jar C:\Users\HASEE\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pycsp3\solvers\abscon\ACE-21-05.jar essai_cop_mod2-card-reformulate_celar_50_7_10_5_0.xml  -v=1 -npc
+  * Log file of the solver: C:\Users\HASEE\Desktop\Projet MRO\données-reformulées-cop\ACE\Card\solver_0xe094673501fa_2432_0.log
+
+ACE (AbsCon Essence) v21.05 
+
+  Instance essai_cop_mod2-card-reformulate_celar_50_7_10_5_0
+
+  Loading variables...
+  Loading constraints...
+
+  Domains
+    nTypes=86  nValues=4619  sizes=[40#7,41#6,42#9,43#6...49#9,50#4,51#3,52#15]
+  Variables
+    count=100  degrees=[5#4,6#24,7#4,8#26...13#2,14#6,15#2,19#2]
+  Constraints
+    count=293  nSpecific=293  arities=[2#284,6#1,10#1,14#1,16#2,18#1,20#1,100#2]
+    distribution=[DistEQ2#50,DistGE2#220,NValuesCstGE#1,NValuesCstLE#8,SubEQ2#14]
+    wck=4.80  cpu=1.171  mem=9M811
+  Objective
+    way=min  type=NValuesCstLE  bounds=1..100
+
+  Building solver... 
+
+  Solver
+    guaranteedGAC=false
+    wck=4.85  cpu=1.203  mem=7M509
+
+  Preprocessing
+    eff=70  nValues=4014  nACremovedValues=605  inconsistency=false
+    wck=0.0  cpu=1.203  mem=7M509
+
+o 20  4.87
+o 18  4.87
+o 16  4.87
+    run=0  dpt=29..99  eff=749  wrg=105  wck=0.03  ngd=10  bnds=1..15
+    run=1  dpt=34..49  eff=1512  wrg=245  wck=0.05  ngd=23  bnds=1..15
+    run=2  dpt=19..43  eff=2326  wrg=364  wck=0.05  ngd=34  bnds=1..15
+    run=3  dpt=20..35  eff=2862  wrg=498  wck=0.06  ngd=48  bnds=1..15
+o 14  4.92
+    run=4  dpt=20..99  eff=3948  wrg=659  wck=0.06  ngd=59  bnds=1..13
+    run=5  dpt=12..20  eff=4626  wrg=775  wck=0.08  ngd=62  bnds=1..13
+o 12  4.95
+    run=6  dpt=18..99  eff=5432  wrg=906  wck=0.09  ngd=80  bnds=1..11
+    run=7  dpt=16..18  eff=6082  wrg=1013  wck=0.09  ngd=89  bnds=1..11
+    run=8  dpt=11..19  eff=6797  wrg=1137  wck=0.11  ngd=99  bnds=1..11
+    run=9  dpt=12..18  eff=7451  wrg=1267  wck=0.12  ngd=108  bnds=1..11
+    run=10  dpt=8..30  eff=8362  wrg=1414  wck=0.12  ngd=123  bnds=1..11
+    run=11  dpt=14..18  eff=9571  wrg=1572  wck=0.13  ngd=137  bnds=1..11
+    run=12  dpt=11..16  eff=10501  wrg=1748  wck=0.13  ngd=156  bnds=1..11
+o 10  5.00
+    run=13  dpt=9..99  eff=11784  wrg=1959  wck=0.15  ngd=164  bnds=1..9
+    run=14  dpt=9..14  eff=12414  wrg=2067  wck=0.16  ngd=169  bnds=1..9
+    run=15  dpt=8..13  eff=13047  wrg=2196  wck=0.17  ngd=187  bnds=1..9
+    run=16  dpt=9..16  eff=13780  wrg=2327  wck=0.18  ngd=200  bnds=1..9
+o 8  5.04
+    run=17  dpt=7..99  eff=14842  wrg=2498  wck=0.19  ngd=210  bnds=1..7
+    run=18  dpt=8..16  eff=15479  wrg=2608  wck=0.20  ngd=218  bnds=1..7
+    run=19  dpt=7..16  eff=16262  wrg=2737  wck=0.20  ngd=228  bnds=1..7
+    run=20  dpt=7..15  eff=16977  wrg=2869  wck=0.21  ngd=239  bnds=1..7
+    run=21  dpt=6..38  eff=18007  wrg=3018  wck=0.21  ngd=281  bnds=1..7
+    run=22  dpt=8..14  eff=18894  wrg=3177  wck=0.23  ngd=307  bnds=1..7
+    run=23  dpt=6..12  eff=20050  wrg=3352  wck=0.23  ngd=319  bnds=1..7
+    run=24  dpt=6..13  eff=21072  wrg=3543  wck=0.24  ngd=332  bnds=1..7
+    run=25  dpt=4..10  eff=22684  wrg=3750  wck=0.25  ngd=340  bnds=1..7
+o 6  5.11
+    run=26  dpt=1..99  eff=24506  wrg=3993  wck=0.27  ngd=350  bnds=1..5
+    run=27  dpt=7..14  eff=25093  wrg=4102  wck=0.27  ngd=359  bnds=1..5
+    run=28  dpt=5..11  eff=25854  wrg=4222  wck=0.28  ngd=379  bnds=1..5
+    run=29  dpt=5..10  eff=26584  wrg=4350  wck=0.28  ngd=387  bnds=1..5
+    run=30  dpt=5..11  eff=27364  wrg=4490  wck=0.29  ngd=408  bnds=1..5
+    run=31  dpt=1..8  eff=28519  wrg=4643  wck=0.29  ngd=422  bnds=1..5
+    run=32  dpt=4..8  eff=29864  wrg=4814  wck=0.30  ngd=441  bnds=1..5
+    run=33  dpt=3..8  eff=30725  wrg=5001  wck=0.31  ngd=459  bnds=1..5
+    run=34  dpt=1..8  eff=32227  wrg=5203  wck=0.31  ngd=487  bnds=1..5
+    run=35  dpt=4..9  eff=33930  wrg=5431  wck=0.32  ngd=512  bnds=1..5
+    run=36  dpt=1..8  eff=36076  wrg=5674  wck=0.33  ngd=552  bnds=1..5
+    run=37  dpt=5..11  eff=38223  wrg=5952  wck=0.34  ngd=580  bnds=1..5
+    run=38  dpt=1..8  eff=42117  wrg=6249  wck=0.35  ngd=603  bnds=1..5
+    run=39  dpt=4..10  eff=44418  wrg=6583  wck=0.37  ngd=637  bnds=1..5
+    run=40  dpt=3..10  eff=46280  wrg=6949  wck=0.38  ngd=653  bnds=1..5
+    run=41  dpt=3..7  eff=48204  wrg=7350  wck=0.40  ngd=674  bnds=1..5
+    run=42  dpt=3..10  eff=51980  wrg=7794  wck=0.41  ngd=708  bnds=1..5
+    run=43  dpt=1..9  eff=58342  wrg=8291  wck=0.45  ngd=754  bnds=1..5
+    run=44  dpt=2..6  eff=61865  wrg=8853  wck=0.48  ngd=783  bnds=1..5
+    run=45  dpt=1..8  eff=66526  wrg=9444  wck=0.51  ngd=812  bnds=1..5
+    run=46  dpt=2..6  eff=71692  wrg=10114  wck=0.54  ngd=838  bnds=1..5
+    run=47  dpt=1..6  eff=78541  wrg=10830  wck=0.59  ngd=881  bnds=1..5
+    run=48  dpt=2..7  eff=83639  wrg=11607  wck=0.62  ngd=915  bnds=1..5
+    run=49  dpt=1..7  eff=91152  wrg=12471  wck=0.67  ngd=945  bnds=1..5
+    run=50  dpt=1..7  eff=101115  wrg=13422  wck=0.73  ngd=980  bnds=1..5
+    run=51  dpt=1..5  eff=108209  wrg=14476  wck=0.81  ngd=1032  bnds=1..5
+    run=52  dpt=1..8  eff=119286  wrg=15639  wck=0.87  ngd=1070  bnds=1..5
+    run=53  dpt=1..6  eff=136704  wrg=16919  wck=0.95  ngd=1085  bnds=1..5
+    run=54  dpt=1..6  eff=149758  wrg=18309  wck=1.02  ngd=1114  bnds=1..5
+    run=55  dpt=1..6  eff=159439  wrg=19858  wck=1.13  ngd=1134  bnds=1..5
+    ...resetting weights (nValues: 4014)
+    run=56  dpt=0..8  eff=185991  wrg=21572  wck=1.24  ngd=1142  bnds=1..5
+    run=57  dpt=0..5  eff=210587  wrg=23497  wck=1.36  ngd=1167  bnds=1..5
+    run=58  dpt=0..4  eff=230198  wrg=25557  wck=1.46  ngd=1181  bnds=1..5
+    run=59  dpt=0..3  eff=258034  wrg=27821  wck=1.57  ngd=1196  bnds=1..5
+    run=60  dpt=0..3  eff=281722  wrg=30281  wck=1.68  ngd=1221  bnds=1..5
+    run=61  dpt=0..2  eff=328137  wrg=33117  wck=1.83  ngd=1221  bnds=1..5
+    run=62  dpt=0..3  eff=374930  wrg=36179  wck=2.01  ngd=1237  bnds=1..5
+    run=63  dpt=0..3  eff=407102  wrg=39461  wck=2.15  ngd=1247  bnds=1..5
+    run=64  dpt=0..2  eff=425999  wrg=40985  wck=2.22  ngd=1247  bnds=6..5
+
+  Global
+    eff=425999  nogoods=1247
+    Stop=FULL_EXPLORATION  wrong=40985  bestBound=6  bestBoundWck=5.109  bestBoundCpu=1.421  foundSolutions=8  firstSolCpu=1.218
+    wck=7.08  cpu=3.265  mem=11M209
+
+
+  Solution 8 in JSON format:
+   {
+    freq_emi: [294, 462, 28, 28, 462, 196, 98, 28, 294, 294, 462, 294, 294, 98, 28, 364, 364, 28, 98, 462, 294, 364, 364, 364, 462, 294, 294, 98, 364, 98, 196, 294, 294, 196, 294, 364, 28, 98, 364, 98, 462, 28, 364, 28, 294, 196, 294, 98, 364, 364],
+    freq_rec: [28, 196, 294, 294, 196, 462, 364, 294, 28, 28, 196, 28, 28, 364, 294, 98, 98, 294, 364, 196, 28, 98, 98, 98, 196, 28, 28, 364, 98, 364, 462, 28, 28, 462, 28, 98, 294, 364, 98, 364, 196, 294, 98, 294, 28, 462, 28, 364, 98, 98]
+   }
+
+s OPTIMUM FOUND
+
+v <instantiation id='sol8' type='solution' cost='6'> <list> freq_emi[] freq_rec[] </list> <values> 294 462 28x2 462 196 98 28 294x2 462 294x2 98 28 364x2 28 98 462 294 364x3 462 294x2 98 364 98 196 294x2 196 294 364 28 98 364 98 462 28 364 28 294 196 294 98 364x2 28 196 294x2 196 462 364 294 28x2 196 28x2 364 294 98x2 294 364 196 28 98x3 196 28x2 364 98 364 462 28x2 462 28 98 294 364 98 364 196 294 98 294 28 462 28 364 98x2 </values> </instantiation>
+
+d WRONG DECISIONS 40985
+d NUMBER OF SOLUTIONS 8
+d BOUND 6
+d COMPLETE EXPLORATION
+
+c real time : 3.281
+
+  * Solved by Ace in     8.06 seconds
+
+  NB: use the solver option v, as in -solver=[choco,v] or -solver=[ace,v] to see directly the output of the solver.
+
+<instantiation type="solution optimal" cost="6">
+  <list> freq_emi[] freq_rec[] </list>
+  <values> 294 462 28x2 462 196 98 28 294x2 462 294x2 98 28 364x2 28 98 462 294 364x3 462 294x2 98 364 98 196 294x2 196 294 364 28 98 364 98 462 28 364 28 294 196 294 98 364x2 28 196 294x2 196 462 364 294 28x2 196 28x2 364 294 98x2 294 364 196 28 98x3 196 28x2 364 98 364 462 28x2 462 28 98 294 364 98 364 196 294 98 294 28 462 28 364 98x2 </values>
+</instantiation>
