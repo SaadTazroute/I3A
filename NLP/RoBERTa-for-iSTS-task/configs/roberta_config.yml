@@ -1,0 +1,6 @@
+
+SOLVER:
+  BASE_LR: 0.002
+  MAX_EPOCHS: 100
+
+

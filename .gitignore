@@ -1,0 +1,17 @@
+__pycache__
+*.ipynb_checkpoints
+.vscode
+.idea
+*.pypirc
+*.pt
+*.wa
+
+NLP/RoBERTa-for-iSTS-task/semeval_data
+NLP/RoBERTa-for-iSTS-task/output
+torchlib.egg-info
+
+/Deep_Learning/.ipynb_checkpoints/
+/*/.ipynb_checkpoints/
+/upwork/
+/NLP/RoBERTa-for-iSTS-task/data/datasets/*.csv
+/NLP/RoBERTa-for-iSTS-task/data/datasets/*.wa
